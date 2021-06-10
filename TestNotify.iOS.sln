@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNotify.iOS", "TestNotify.iOS\TestNotify.iOS.csproj", "{FB903D7D-F78E-4B2F-88C1-51815E9FF470}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TestNotify.Shared", "TestNotify.Shared\TestNotify.Shared.shproj", "{58FB22FE-5BAF-49C2-BFA6-F4488B436C8B}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		TestNotify.Shared\TestNotify.Shared.projitems*{58fb22fe-5baf-49c2-bfa6-f4488b436c8b}*SharedItemsImports = 13
+		TestNotify.Shared\TestNotify.Shared.projitems*{fb903d7d-f78e-4b2f-88c1-51815e9ff470}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB903D7D-F78E-4B2F-88C1-51815E9FF470}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{FB903D7D-F78E-4B2F-88C1-51815E9FF470}.Debug|iPhone.Build.0 = Debug|iPhone
+		{FB903D7D-F78E-4B2F-88C1-51815E9FF470}.Debug|iPhone.Deploy.0 = Debug|iPhone
+		{FB903D7D-F78E-4B2F-88C1-51815E9FF470}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{FB903D7D-F78E-4B2F-88C1-51815E9FF470}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{FB903D7D-F78E-4B2F-88C1-51815E9FF470}.Debug|iPhoneSimulator.Deploy.0 = Debug|iPhoneSimulator
+		{FB903D7D-F78E-4B2F-88C1-51815E9FF470}.Release|iPhone.ActiveCfg = Release|iPhone
+		{FB903D7D-F78E-4B2F-88C1-51815E9FF470}.Release|iPhone.Build.0 = Release|iPhone
+		{FB903D7D-F78E-4B2F-88C1-51815E9FF470}.Release|iPhone.Deploy.0 = Release|iPhone
+		{FB903D7D-F78E-4B2F-88C1-51815E9FF470}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{FB903D7D-F78E-4B2F-88C1-51815E9FF470}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{FB903D7D-F78E-4B2F-88C1-51815E9FF470}.Release|iPhoneSimulator.Deploy.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38E5BFFE-0D38-4AFF-A93D-3971F60FCBD4}
+	EndGlobalSection
+EndGlobal

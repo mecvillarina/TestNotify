@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Uj/RRBxfmrc1IGpE/XAFfIGEey0+9gbIV4G3SIMAy6ma3v8xIuqlNBr3kG5S0ot6Adm56t/4RFp06TjJnIV7pQ==",
+  "success": true,
+  "projectFilePath": "C:\\P\\TestNotify.iOS\\TestNotify.iOS\\TestNotify.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mevil\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}

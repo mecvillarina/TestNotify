@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\P\\TestNotify.iOS\\TestNotify.iOS\\TestNotify.iOS.csproj": {}
+  },
+  "projects": {
+    "C:\\P\\TestNotify.iOS\\TestNotify.iOS\\TestNotify.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\P\\TestNotify.iOS\\TestNotify.iOS\\TestNotify.iOS.csproj",
+        "projectName": "TestNotify.iOS",
+        "projectPath": "C:\\P\\TestNotify.iOS\\TestNotify.iOS\\TestNotify.iOS.csproj",
+        "packagesPath": "C:\\Users\\mevil\\.nuget\\packages\\",
+        "outputPath": "C:\\P\\TestNotify.iOS\\TestNotify.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mevil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
