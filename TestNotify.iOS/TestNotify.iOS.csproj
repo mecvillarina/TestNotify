@@ -73,6 +73,9 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="AWSSDK.SimpleNotificationService">
+      <Version>3.7.2</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
   </ItemGroup>
   <ItemGroup>
