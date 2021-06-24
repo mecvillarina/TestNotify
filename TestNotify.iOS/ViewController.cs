@@ -18,7 +18,9 @@ namespace TestNotify.iOS
             // Handle when your app starts
             CrossPushNotification.Current.OnTokenRefresh += (s, p) =>
             {
+                UIPasteboard.General.String = p.Token;
                 System.Diagnostics.Debug.WriteLine($"TOKEN REC: {p.Token}");
+                System.Diagnostics.Debug.WriteLine($"DEVICE ID: {UIDevice.CurrentDevice.IdentifierForVendor.ToString()}");
             };
 
             CrossPushNotification.Current.RegisterForPushNotifications();

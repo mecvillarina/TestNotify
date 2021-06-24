@@ -1,5 +1,4 @@
-﻿using Amazon.SimpleNotificationService;
-using Foundation;
+﻿using Foundation;
 using System;
 using TestNotify.iOS.PushNotification;
 using UIKit;
@@ -14,23 +13,16 @@ namespace TestNotify.iOS
     
         [Export("window")]
         public UIWindow Window { get; set; }
-
-        private AmazonSimpleNotificationServiceClient _snsClient;
         [Export ("application:didFinishLaunchingWithOptions:")]
         public bool FinishedLaunching (UIApplication application, NSDictionary launchOptions)
         {
             PushNotificationManager.Initialize(launchOptions, false);
+            PushNotificationManager.CurrentNotificationPresentationOption = UNNotificationPresentationOptions.Alert;
 
             // Override point for customization after application launch.
             // If not required for your application you can safely delete this method
             return true;
         }
-
-        private void CreateSNSClient()
-        {
-            //_snsClient = new AmazonSimpleNotificationServiceClient(credentials, region);
-        }
-       
         // UISceneSession Lifecycle
 
         [Export ("application:configurationForConnectingSceneSession:options:")]

@@ -62,7 +62,9 @@
     <WarningLevel>4</WarningLevel>
     <CodesignEntitlements>Entitlements.RELEASE.plist</CodesignEntitlements>
     <MtouchArch>ARM64</MtouchArch>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Distribution: mark villarina (5PQW7HVKMF)</CodesignKey>
+    <CodesignProvision>Test Notify Adhoc Provisioning</CodesignProvision>
+    <MtouchDebug>true</MtouchDebug>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -73,9 +75,6 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="AWSSDK.SimpleNotificationService">
-      <Version>3.7.2</Version>
-    </PackageReference>
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
   </ItemGroup>
   <ItemGroup>

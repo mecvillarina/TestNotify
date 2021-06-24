@@ -287,8 +287,15 @@ namespace TestNotify.iOS.PushNotification
             _onNotificationReceived?.Invoke(CrossPushNotification.Current, new PushNotificationDataEventArgs(parameters));
             CrossPushNotification.Current.NotificationHandler?.OnReceived(parameters);
 
-            string[] priorityKeys = new string[] { "priority", "aps.priority" };
+            if (parameters.TryGetValue("aps.sound", out object sound))
+            {
+                if (bool.TryParse(sound.ToString(), out bool hasSound) && hasSound && !CurrentNotificationPresentationOption.HasFlag(UNNotificationPresentationOptions.Sound))
+                {
+                    CurrentNotificationPresentationOption |= UNNotificationPresentationOptions.Sound;
+                }
+            }
 
+            string[] priorityKeys = new string[] { "priority", "aps.priority" };
 
             foreach (var pKey in priorityKeys)
             {
